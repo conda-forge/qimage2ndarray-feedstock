@@ -1,6 +1,6 @@
 {% set name = "qimage2ndarray" %}
-{% set version = "1.6" %}
-{% set sha256 = "92c1f3accc26f5762066f924ebc4f09c4f76ff483f97ed9fdc80843bc644f7c9" %}
+{% set version = "1.7" %}
+{% set sha256 = "c8616fefcd725875ea614ab0976f0cfa4d7db3d12046ae8485370e91a50ab3b7" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
   noarch: python
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
