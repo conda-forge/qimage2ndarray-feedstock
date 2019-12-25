@@ -1,6 +1,6 @@
 {% set name = "qimage2ndarray" %}
-{% set version = "1.7" %}
-{% set sha256 = "c8616fefcd725875ea614ab0976f0cfa4d7db3d12046ae8485370e91a50ab3b7" %}
+{% set version = "1.8.2" %}
+{% set sha256 = "0f792693a0f1cd5f93fbf73bc3fb2d511fb9cceed3c9308bfb200f38c19a5545" %}
 
 package:
   name: {{ name }}
@@ -38,6 +38,7 @@ test:
 about:
   home: https://github.com/hmeine/qimage2ndarray
   license: BSD 3-Clause
+  license_file: LICENSE.txt
   license_family: BSD
   # Requested the license file be packaged upstream.
   #
