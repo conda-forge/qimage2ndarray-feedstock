@@ -17,8 +17,9 @@ build:
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
-  build:
+  host:
     - python >=2
+    - pip
     - setuptools
 
   run:
