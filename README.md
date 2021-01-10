@@ -3,11 +3,15 @@ About qimage2ndarray
 
 Home: https://github.com/hmeine/qimage2ndarray
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qimage2ndarray-feedstock/blob/master/LICENSE.txt)
 
 Summary: Conversion between QImages and numpy.ndarrays.
+
+Development: https://github.com/hmeine/qimage2ndarray
+
+Documentation: http://hmeine.github.io/qimage2ndarray
 
 qimage2ndarray is a small python extension for quickly converting
 between ``QImages`` and ``numpy.ndarrays`` (in both directions).
