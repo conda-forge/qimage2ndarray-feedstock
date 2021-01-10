@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/hmeine/qimage2ndarray
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   license_family: BSD
   # Requested the license file be packaged upstream.
