@@ -1,6 +1,6 @@
 {% set name = "qimage2ndarray" %}
-{% set version = "1.9.0" %}
-{% set sha256 = "a79075c6d0d8443c4422ee969a5409e44fd0254571604ccea875c6c95e3f55ea" %}
+{% set version = "1.10.0" %}
+{% set sha256 = "3725102446dc8a696b2ec775b1d2af43b13af6a7f9ebee8a37115bb9543a2c58" %}
 
 package:
   name: {{ name }}
