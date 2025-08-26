@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -18,17 +18,18 @@ build:
 
 requirements:
   host:
-    - python >=2
+    - python {{ python_min }}
     - pip
     - setuptools
 
   run:
-    - python >=2
+    - python >={{ python_min }}
     - numpy
 
 test:
   requires:
     - pyqt 5*
+    - python {{ python_min }}
 
   imports:
     # Need to import Python-bindings first
